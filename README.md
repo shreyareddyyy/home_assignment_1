@@ -101,34 +101,23 @@ Overfitting can be detected if training accuracy increases while validation accu
 The model may begin to overfit the training data unless regularization is applied. TensorBoard would show training loss decreasing while validation loss increases.
 
 ---
-## 🚀 How to Run
-
-### 1. Clone the Repository
+# How to Run
 
 ```bash
+# 1. Clone the Repository
 git clone <your-repo-url>
 cd home_assignment_1
-2. Install Dependencies
-Install required Python libraries:
 
-bash
-Copy
-Edit
+# 2. Install Dependencies
 pip install -r requirements.txt
-3. Run the Python Scripts
-bash
-Copy
-Edit
+
+# 3. Run the Python Scripts
 python tensor_ops.py
 python loss_functions.py
 python mnist_tensorboard.py
-4. Launch TensorBoard
-Start TensorBoard to visualize training logs:
 
-bash
-Copy
-Edit
+# 4. Launch TensorBoard
 tensorboard --logdir=logs/fit
-Then open the browser and go to:
 
-http://localhost:6006
+# After launching, open your browser and go to:
+# http://localhost:6006
